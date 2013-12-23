@@ -1,0 +1,14 @@
+PODS:
+  - AURefreshControl (0.1.0)
+
+DEPENDENCIES:
+  - AURefreshControl (from `../`)
+
+EXTERNAL SOURCES:
+  AURefreshControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AURefreshControl: f0f27564724202c4dd7ecf2ed7fc66efcdc6b9f2
+
+COCOAPODS: 0.28.0

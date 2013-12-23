@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20F704ED18633AE000277DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F704EC18633AE000277DC7 /* Foundation.framework */; };
+		20F704EF18633AE000277DC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F704EE18633AE000277DC7 /* CoreGraphics.framework */; };
+		20F704F118633AE000277DC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F704F018633AE000277DC7 /* UIKit.framework */; };
+		20F704F718633AE000277DC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20F704F518633AE000277DC7 /* InfoPlist.strings */; };
+		20F704F918633AE000277DC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F704F818633AE000277DC7 /* main.m */; };
+		20F704FD18633AE000277DC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F704FC18633AE000277DC7 /* AppDelegate.m */; };
+		20F7050618633AE000277DC7 /* AUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F7050518633AE000277DC7 /* AUViewController.m */; };
+		20F7050818633AE000277DC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F7050718633AE000277DC7 /* Images.xcassets */; };
+		20F7050F18633AE000277DC7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F7050E18633AE000277DC7 /* XCTest.framework */; };
+		20F7051018633AE000277DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F704EC18633AE000277DC7 /* Foundation.framework */; };
+		20F7051118633AE000277DC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F704F018633AE000277DC7 /* UIKit.framework */; };
+		20F7051918633AE000277DC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20F7051718633AE000277DC7 /* InfoPlist.strings */; };
+		20F7051B18633AE000277DC7 /* AURefreshControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F7051A18633AE000277DC7 /* AURefreshControlTests.m */; };
+		738911C1A27E4C418D00D7BD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD59A0F41E5E4E96BBD064A1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20F7051218633AE000277DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20F704E118633AE000277DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F704E818633AE000277DC7;
+			remoteInfo = AURefreshControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20F704E918633AE000277DC7 /* AURefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AURefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F704EC18633AE000277DC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20F704EE18633AE000277DC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20F704F018633AE000277DC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20F704F418633AE000277DC7 /* AURefreshControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AURefreshControl-Info.plist"; sourceTree = "<group>"; };
+		20F704F618633AE000277DC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20F704F818633AE000277DC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20F704FA18633AE000277DC7 /* AURefreshControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AURefreshControl-Prefix.pch"; sourceTree = "<group>"; };
+		20F704FB18633AE000277DC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20F704FC18633AE000277DC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20F7050418633AE000277DC7 /* AUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUViewController.h; sourceTree = "<group>"; };
+		20F7050518633AE000277DC7 /* AUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUViewController.m; sourceTree = "<group>"; };
+		20F7050718633AE000277DC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20F7050D18633AE000277DC7 /* AURefreshControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AURefreshControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F7050E18633AE000277DC7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		20F7051618633AE000277DC7 /* AURefreshControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AURefreshControlTests-Info.plist"; sourceTree = "<group>"; };
+		20F7051818633AE000277DC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20F7051A18633AE000277DC7 /* AURefreshControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AURefreshControlTests.m; sourceTree = "<group>"; };
+		B3F7B5780DD641E3AB273826 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BD59A0F41E5E4E96BBD064A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20F704E618633AE000277DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F704EF18633AE000277DC7 /* CoreGraphics.framework in Frameworks */,
+				20F704F118633AE000277DC7 /* UIKit.framework in Frameworks */,
+				20F704ED18633AE000277DC7 /* Foundation.framework in Frameworks */,
+				738911C1A27E4C418D00D7BD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F7050A18633AE000277DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F7050F18633AE000277DC7 /* XCTest.framework in Frameworks */,
+				20F7051118633AE000277DC7 /* UIKit.framework in Frameworks */,
+				20F7051018633AE000277DC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F704E018633AE000277DC7 = {
+			isa = PBXGroup;
+			children = (
+				20F704F218633AE000277DC7 /* Classes */,
+				20F7051418633AE000277DC7 /* AURefreshControlTests */,
+				20F704EB18633AE000277DC7 /* Frameworks */,
+				20F704EA18633AE000277DC7 /* Products */,
+				B3F7B5780DD641E3AB273826 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		20F704EA18633AE000277DC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20F704E918633AE000277DC7 /* AURefreshControl.app */,
+				20F7050D18633AE000277DC7 /* AURefreshControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20F704EB18633AE000277DC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20F704EC18633AE000277DC7 /* Foundation.framework */,
+				20F704EE18633AE000277DC7 /* CoreGraphics.framework */,
+				20F704F018633AE000277DC7 /* UIKit.framework */,
+				20F7050E18633AE000277DC7 /* XCTest.framework */,
+				BD59A0F41E5E4E96BBD064A1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20F704F218633AE000277DC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				20F704FB18633AE000277DC7 /* AppDelegate.h */,
+				20F704FC18633AE000277DC7 /* AppDelegate.m */,
+				20F7050418633AE000277DC7 /* AUViewController.h */,
+				20F7050518633AE000277DC7 /* AUViewController.m */,
+				20F7050718633AE000277DC7 /* Images.xcassets */,
+				20F704F318633AE000277DC7 /* Supporting Files */,
+			);
+			name = Classes;
+			path = AURefreshControl;
+			sourceTree = "<group>";
+		};
+		20F704F318633AE000277DC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20F704F418633AE000277DC7 /* AURefreshControl-Info.plist */,
+				20F704F518633AE000277DC7 /* InfoPlist.strings */,
+				20F704F818633AE000277DC7 /* main.m */,
+				20F704FA18633AE000277DC7 /* AURefreshControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20F7051418633AE000277DC7 /* AURefreshControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				20F7051A18633AE000277DC7 /* AURefreshControlTests.m */,
+				20F7051518633AE000277DC7 /* Supporting Files */,
+			);
+			path = AURefreshControlTests;
+			sourceTree = "<group>";
+		};
+		20F7051518633AE000277DC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20F7051618633AE000277DC7 /* AURefreshControlTests-Info.plist */,
+				20F7051718633AE000277DC7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20F704E818633AE000277DC7 /* AURefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F7051E18633AE000277DC7 /* Build configuration list for PBXNativeTarget "AURefreshControl" */;
+			buildPhases = (
+				12D526DE323F4547B3376C03 /* Check Pods Manifest.lock */,
+				20F704E518633AE000277DC7 /* Sources */,
+				20F704E618633AE000277DC7 /* Frameworks */,
+				20F704E718633AE000277DC7 /* Resources */,
+				3069D9B802CC415FA2D3F24B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AURefreshControl;
+			productName = AURefreshControl;
+			productReference = 20F704E918633AE000277DC7 /* AURefreshControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20F7050C18633AE000277DC7 /* AURefreshControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F7052118633AE000277DC7 /* Build configuration list for PBXNativeTarget "AURefreshControlTests" */;
+			buildPhases = (
+				20F7050918633AE000277DC7 /* Sources */,
+				20F7050A18633AE000277DC7 /* Frameworks */,
+				20F7050B18633AE000277DC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F7051318633AE000277DC7 /* PBXTargetDependency */,
+			);
+			name = AURefreshControlTests;
+			productName = AURefreshControlTests;
+			productReference = 20F7050D18633AE000277DC7 /* AURefreshControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20F704E118633AE000277DC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AU;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = AppUnite.com;
+				TargetAttributes = {
+					20F7050C18633AE000277DC7 = {
+						TestTargetID = 20F704E818633AE000277DC7;
+					};
+				};
+			};
+			buildConfigurationList = 20F704E418633AE000277DC7 /* Build configuration list for PBXProject "AURefreshControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20F704E018633AE000277DC7;
+			productRefGroup = 20F704EA18633AE000277DC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20F704E818633AE000277DC7 /* AURefreshControl */,
+				20F7050C18633AE000277DC7 /* AURefreshControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20F704E718633AE000277DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F7050818633AE000277DC7 /* Images.xcassets in Resources */,
+				20F704F718633AE000277DC7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F7050B18633AE000277DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F7051918633AE000277DC7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12D526DE323F4547B3376C03 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3069D9B802CC415FA2D3F24B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20F704E518633AE000277DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F704FD18633AE000277DC7 /* AppDelegate.m in Sources */,
+				20F7050618633AE000277DC7 /* AUViewController.m in Sources */,
+				20F704F918633AE000277DC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F7050918633AE000277DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F7051B18633AE000277DC7 /* AURefreshControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20F7051318633AE000277DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20F704E818633AE000277DC7 /* AURefreshControl */;
+			targetProxy = 20F7051218633AE000277DC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20F704F518633AE000277DC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F704F618633AE000277DC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20F7051718633AE000277DC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F7051818633AE000277DC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20F7051C18633AE000277DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20F7051D18633AE000277DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20F7051F18633AE000277DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F7B5780DD641E3AB273826 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AURefreshControl/AURefreshControl-Prefix.pch";
+				INFOPLIST_FILE = "AURefreshControl/AURefreshControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20F7052018633AE000277DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F7B5780DD641E3AB273826 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AURefreshControl/AURefreshControl-Prefix.pch";
+				INFOPLIST_FILE = "AURefreshControl/AURefreshControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		20F7052218633AE000277DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AURefreshControl.app/AURefreshControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AURefreshControl/AURefreshControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AURefreshControlTests/AURefreshControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		20F7052318633AE000277DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AURefreshControl.app/AURefreshControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AURefreshControl/AURefreshControl-Prefix.pch";
+				INFOPLIST_FILE = "AURefreshControlTests/AURefreshControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F704E418633AE000277DC7 /* Build configuration list for PBXProject "AURefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F7051C18633AE000277DC7 /* Debug */,
+				20F7051D18633AE000277DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F7051E18633AE000277DC7 /* Build configuration list for PBXNativeTarget "AURefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F7051F18633AE000277DC7 /* Debug */,
+				20F7052018633AE000277DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F7052118633AE000277DC7 /* Build configuration list for PBXNativeTarget "AURefreshControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F7052218633AE000277DC7 /* Debug */,
+				20F7052318633AE000277DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20F704E118633AE000277DC7 /* Project object */;
+}
