@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20C2B2DE186D9E3800DBA523 /* YPRefreshControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C2B2DD186D9E3800DBA523 /* YPRefreshControlView.m */; };
 		20F704ED18633AE000277DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F704EC18633AE000277DC7 /* Foundation.framework */; };
 		20F704EF18633AE000277DC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F704EE18633AE000277DC7 /* CoreGraphics.framework */; };
 		20F704F118633AE000277DC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F704F018633AE000277DC7 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20C2B2DC186D9E3800DBA523 /* YPRefreshControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPRefreshControlView.h; sourceTree = "<group>"; };
+		20C2B2DD186D9E3800DBA523 /* YPRefreshControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPRefreshControlView.m; sourceTree = "<group>"; };
 		20F704E918633AE000277DC7 /* AURefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AURefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F704EC18633AE000277DC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20F704EE18633AE000277DC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 				20F704FC18633AE000277DC7 /* AppDelegate.m */,
 				20F7050418633AE000277DC7 /* AUViewController.h */,
 				20F7050518633AE000277DC7 /* AUViewController.m */,
+				20C2B2DC186D9E3800DBA523 /* YPRefreshControlView.h */,
+				20C2B2DD186D9E3800DBA523 /* YPRefreshControlView.m */,
 				20F7050718633AE000277DC7 /* Images.xcassets */,
 				20F704F318633AE000277DC7 /* Supporting Files */,
 			);
@@ -289,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F704FD18633AE000277DC7 /* AppDelegate.m in Sources */,
+				20C2B2DE186D9E3800DBA523 /* YPRefreshControlView.m in Sources */,
 				20F7050618633AE000277DC7 /* AUViewController.m in Sources */,
 				20F704F918633AE000277DC7 /* main.m in Sources */,
 			);

@@ -7,12 +7,25 @@
 //
 
 #import "AppDelegate.h"
+#import "AUViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // create window
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    AUViewController *mainVC = [[AUViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    [self.window setRootViewController:navController];
+    
+    // make key and visible
+    [self.window makeKeyAndVisible];
+
+    // change tint color
+    self.window.tintColor = [UIColor colorWithRed:51.f/255.f green:149.f/255.f blue:233.f/255.f alpha:1.f];
+    
     return YES;
 }
 							
