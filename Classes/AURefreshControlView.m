@@ -22,6 +22,10 @@
 #pragma mark -
 #pragma mark Init
 
+- (void)dealloc {
+    [self _removeObservers];
+}
+
 - (id)init {
     self = [super init];
     if (self) {
@@ -145,7 +149,7 @@
 - (void)setThreshold:(CGFloat)threshold {
     // set new threshold value
     _threshold = threshold;
-
+    
     // relayout
     [self setNeedsLayout];
 }
@@ -211,7 +215,7 @@
         case AURefreshControlViewPositionBottom:
             self.progress = overBottomOffsetY / self.threshold;
             centerX = self.scrollView.center.x + xOffset;
-            centerY = self.scrollView.frame.size.height + self.frame.size.height / 2.0f + yOffset;
+            centerY = CGRectGetHeight(self.scrollView.frame) + CGRectGetHeight(self.frame) / 2.0f + yOffset;
             if (overBottomOffsetY >= 0.0f) {
                 centerY -= overBottomOffsetY / 1.5f;
             }
@@ -299,7 +303,7 @@
 }
 
 
-#pragma mark - 
+#pragma mark -
 #pragma mark AURefreshControlViewDelegate
 
 - (void)refreshControlViewDidUpdateContentOffset:(CGPoint)offset {
@@ -327,9 +331,9 @@
     view.refreshHandler = handler;
     view.scrollView = self;
     view.observe = YES;
-
+    
     // add subview
-    [self addSubview:view];
+    [self insertSubview:view atIndex:0];
     
     // relayout
     [view setNeedsLayout];

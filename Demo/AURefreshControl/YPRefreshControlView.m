@@ -32,7 +32,8 @@
         //init arc draw layer
         CAShapeLayer *shapeLayer = [[CAShapeLayer alloc] init];
         shapeLayer.fillColor = nil;
-        shapeLayer.strokeColor = [UIColor colorWithRed:51.f/255.f green:149.f/255.f blue:233.f/255.f alpha:1.f].CGColor;
+//        shapeLayer.strokeColor = [UIColor colorWithRed:241.f/255.f green:21.f/255.f blue:19.f/255.f alpha:1.f].CGColor;
+        shapeLayer.strokeColor = [UIColor colorWithRed:41.f/255.f green:21.f/255.f blue:19.f/255.f alpha:1.f].CGColor;
         shapeLayer.strokeEnd = 0.0f;
         shapeLayer.shadowColor = [UIColor colorWithWhite:1 alpha:0.4f].CGColor;
         shapeLayer.shadowOpacity = 0.7f;
@@ -60,7 +61,7 @@
     CGSize imageSize = _image.size;
     CGPoint center = CGPointMake(rintf(CGRectGetMidX(self.bounds)), rintf(self.threshold * .5f));
     CGPoint offset = CGPointMake(rintf(imageSize.width * .5f), rintf(imageSize.height * .5f));
-    CGRect controlRect = CGRectMake(center.x - offset.x, 10.f, imageSize.width, imageSize.height);
+    CGRect controlRect = CGRectMake(center.x - offset.x, center.y - offset.y, imageSize.width, imageSize.height);
 
     UIBezierPath *bezierPath = [UIBezierPath bezierPathWithArcCenter:offset
                                                               radius:(_image.size.width/2.0f -1.f)
