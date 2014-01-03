@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AURefreshControl"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Base class for scroll view refresh control."
   s.homepage     = "http://www.appunite.com"
   s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
